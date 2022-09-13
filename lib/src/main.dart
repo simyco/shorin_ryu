@@ -1,9 +1,17 @@
 import 'package:flutter/material.dart';
+import 'package:openapi_generator_annotations/openapi_generator_annotations.dart';
+import 'package:petstore_api/petstore_api.dart';
 
 void main() {
   runApp(const MyApp());
 }
 
+@Openapi(
+    additionalProperties:
+        DioProperties(pubName: 'petstore_api', pubAuthor: 'Johnny dep'),
+    inputSpecFile: 'openapi.yml',
+    generatorName: Generator.dio,
+    outputDirectory: 'api/test')
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 

@@ -143,7 +143,7 @@ class DioLoggingInterceptor extends Interceptor {
       return handler.next(response);
     }
 
-    final data = response.data;
+    final dynamic data = response.data;
     if (data != null) {
       // logPrint('[DIO]dataType:${data.runtimeType}');
       if (data is Map) {

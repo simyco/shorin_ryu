@@ -1,16 +1,14 @@
 # shorin_ryu
 
-A new Flutter project.
+A dojo to train with flutter to create a template for future project
 
-## Getting Started
+## First Move
 
 This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+This includes packages like:
+- go_router for routing
+- cubit for state management
+- openapi_generator for creating API Client from openapi.yaml
+- dart_code_metrics for static analysis
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
